@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--1. Membuat Form sederhana yang meliputi; nama lengkap dan password -->
+    <!-- <form action="">
+        Masukkan Nama Depan: 
+        <br>
+        <input type="text" name="namadepan" id="namadepan" placeholder="Abdul">
+        <br>
+        <br>
+
+        Masukkan Nama Belakang:
+        <br>
+        <input type="text" name="namabelakang" placeholder="Aziz">
+        <br>
+        <br>
+
+        Masukkan password:
+        <br>
+        <input type="password" name="password" id="password">
+    </form>
+
+    <p>
+        17. Perhatikan bahwa ketika Anda mengetikkan karakter-karakter dalam suatu field password, browser akan menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+    </p> -->
+
+    <!-- 2. Checkbox dan Tombol Radio -->
+    <!-- <form action="">
+        Saya memiliki sebuah sepeda: 
+        <br>
+        <input type="checkbox" name="sepeda" id="sepeda">
+        <br>
+        <br>
+
+        Saya memiliki sebuah mobil:
+        <br>
+        <input type="checkbox" name="mobil" id="mobil">
+        <br>
+        <br>
+
+        Jenis kelamin Anda?
+        <br>
+
+        Pria
+        <input type="radio" name="gender" id="pria" value="Pria">
+
+        Wanita
+        <input type="radio" name="gender" id="wanita" value="Wanita">
+
+    </form> -->
+
+
+    <!-- 3. Kotak Drop Down dengan Nilai default -->
+    <!-- <form action="">
+        <select name="mobil" id="mobil">
+            <option value="volvo">Volvo</option>
+            <option value="peugeot">Peugeot</option>
+            <option value="fiat">Fiat</option>
+            <option value="jaguar">Jaguar</option>
+            <option value="name">Wahhab</option>
+        </select>
+    </form> -->
+
+
+    <!-- Penggunaan tag fieldset dan legend -->
+    <fieldset>
+        <legend>
+            Informasi kesehatan:
+        </legend>
+
+        <form action="">
+            Tinggi <input type="text" size="3" placeholder="cm">
+            Berat <input type="text" size="3" placeholder="kg">
+            <br><br>
+            <input type="button" value="Ada tombol disini" >
+        </form>
+
+    </fieldset> 
+
+    <!-- Penggunakan tag datalist -->
+    <label for="">
+        Makanan apa yang Anda mau?
+        <br>
+        <input list="jenis-makanan">
+        <datalist id="jenis-makanan">
+            <option value="Seafood">Kepiting</option>
+            <option value="Sayuran">Tomat</option>
+            <option value="Buah">Apel</option>
+        </datalist>
+    </label>
+   
+    
+
+
+    
+
+    <br>
+    <!-- Penggunaan tag output -->
+    <p>Masukkan dua angka untuk dijumlahkan:</p>
+    <form oninput="output.value = parseInt(angka1.value) + parseInt(angka2.value)">
+    <input type="number" id="angka1" name="angka1" placeholder="Angka pertama">
+    +
+    <input type="number" id="angka2" name="angka2" placeholder="Angka kedua">
+    =
+    <output name="output" for="angka1 angka2">Hasil penjumlahan akan muncul di sini.</output>
+    </form>
+    <br><br>
+
+    <!-- Pengguanaan tag oprgrup -->
+    Mau ikan apa?
+    <br>
+    <select>
+        <optgroup label="Ikan Air Tawar">
+          <option>Lele</option>
+          <option>Mas</option>
+        </optgroup>
+        <optgroup label="Ikan Air Asin">
+          <option>Teri</option>
+          <option>Tongkol</option>
+        </optgroup>
+      </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 5. Mengirim E-mail dari suatu Form -->
+    <!-- <form action="wahhabawaludin13@gmail.com" method="post" enctype="text/plain">
+        <h3>Form ini mengirim sebuah email ke W3C</h3>
+        Nama
+        <br>
+        <input type="text" name="nama" placeholder="Nama Anda" size="20" maxlength="20">
+        <br>
+        Mail:
+        <br>
+        <input type="text" name="mail" placeholder="Mail Anda" size="20">
+        <br>
+        Komentar:
+        <br>
+
+        <textarea type="text" name="komentar" id="rom" cols="50" rows="4">Komentar Anda</textarea>
+        <br>
+        tambahan:
+        <br>
+        <input type="text" name="tambahan" value="Tambahan Anda" size="40" readonly>
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+
+    </form> -->
+  
+
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!-- Tugas No 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <img src="img/ugm2.png" alt="">
+        <h2>Pendaftaran Mahasiswa Baru Angkatan 2024 Universitas Gadjah Mada</h1>
+    </div>
+
+
+
+    <!-- Contain -->
+    <!-- Heeader Contain -->
+    <div class="head contain">
+        <div class="filled">
+            <h2>Mari Berinovasi</h2>
+
+            <p>Mahasiswa merupakan aset bagi masa depan bangsa. Ia yang akan menjadi agen perubahan masa depan. Oleh karna itu, mari kita berkolaborasi dengan mengisi pendataan berikut</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container contain">
+
+        <!-- Box 1 -->
+        <div class="left-box">
+            <!-- Input Text -->
+            <div class="button">
+                <p class="jarak">Nama Mahasiswa <span>*</span></sub></p>
+                <input class="box" type="text" name="nama" size="30" required>
+                    
+                <p class="jarak">No Identitas Mahasiswa <span>*</span></p>
+                <input class="box" type="text" name="nim"  size="30"  required>
+
+                <p class="jarak">Usia <span>*</span></p>
+                <input class="box" type="text" name="usia"  size="30">
+                    
+                <p class="jarak">Alamat <span>*</span></p>
+                <input class="box" type="text" name="alamat" size="30">
+            </div>
+
+
+        </div>
+
+        <!-- Box 2 -->
+        <div class="right-box">
+            <P class="jarak">Jenis Kelamin</P>
+            <input type="radio" name="gender" id="like" value="mahasiswa"> Laki - laki<br>
+            <input type="radio" name="gender" id="like" value="pekerja"> Perempuan<br>
+
+
+            <!-- Date menggunakan Date-->
+            <p class="jarak">Tanggal lahir <span>*</span></p>
+            <input type="date" name="Hari" id="date" required>
+            <br>
+
+                
+            <!-- Makanan Favorit menggunakan Dropdown -->
+            <label class="jarak" for="favorit">Makanan Favorit</label><br>
+            <select name="favorit" id="mfavorit">
+                <option value="nasi">Nasi Goreng</option>
+                <option value="nasitelor">Nasi Telor</option>
+                <option value="pecak">Pecak Mama</option>       
+                <option value="ayam">Chicken</option>
+            </select>
+            <br><br>
+
+            <!-- Input Checkbox -->
+            <label for="like" class="jarak">Apa Kesukaanmu?</label>
+            <br>
+            <input type="checkbox" name="menyanyi" id="like" value=>Menyanyi
+            <br>
+            <input type="checkbox" name="menyanyi" id="like" value=>Berdansa
+            <br>
+            <input type="checkbox" name="menyanyi" id="like" value=>Membaca
+            <br>
+            <input type="checkbox" name="menyanyi" id="like" value=>Menulis
+
+        </div>     
+        
+    </div>
+
+    
+    <!-- InputSubmit -->
+    <button id="sub" type="submit">Submit</button>
+    
+
+    <!-- Footer -->
+    <div class="footer"><p>&copy;Copyright 2024</p></div>
+
+    
+</body>
+</html>
