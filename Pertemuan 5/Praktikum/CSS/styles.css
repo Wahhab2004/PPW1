@@ -1,0 +1,16 @@
+p {
+    /* 1. Mengatur warna */
+    color: rgb(0, 242, 161); 
+
+    /* 2. Mengatur warna latar Belakang */
+    background-color: brown;
+
+    
+}
+
+body {
+
+    /* Mengganti background dengan gambar di CSS  */
+    background-image: url('https://i.pinimg.com/736x/91/d7/72/91d772465d1f0964c7d2c38ba27d0591.jpg');
+    background-size: cover;
+}
