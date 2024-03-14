@@ -1,0 +1,111 @@
+body {
+    font-family: Arial;
+}
+
+
+/* HEADER */
+.head {
+    background-color: greenyellow;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    line-height: 10px;
+
+}
+
+
+
+/* LEFT-SIDEBAR */
+ul {
+    float: left;
+    padding-left: 0;
+    margin: 2px auto;
+    margin-top: 17px;
+    justify-content: center;
+    width: 20%;
+}
+
+.nav-left-sidebar {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid  black;
+    margin: 5px;
+    list-style: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+   
+}
+
+#list-1 {
+    background-color: greenyellow;
+    color: white;
+}
+
+
+/* CONTAIN */
+.contain {
+    display: block;
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+    
+}
+
+
+/* RIGHT-SIDEBAR */
+.right-sidebar {
+    color: white;
+    background-color: greenyellow;
+    margin: 15px 0 0 auto;
+    width: 15%;
+    padding: 2px 10px;
+    word-spacing: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+
+/* FOOTER */
+.footer {
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+
+/* SUBMIT */
+#submit {
+    display: block;
+    margin: 30px auto 10px auto;
+    padding: 15px 50px;
+    border: 0;
+    background-color: rgb(153, 255, 0);
+    border-radius: 100px;
+    color: rgb(254, 255, 255);
+
+}
+
+#submit > a{
+    text-decoration: none;
+    color: white;
+}
+
+#submit:hover {
+    background-color: green;
+}
+
+
+#submit > a:active {
+    font-weight: bold;
+}
+
+#submit > a::after {
+    color: aqua;
+    background-color: aqua;
+}
+
