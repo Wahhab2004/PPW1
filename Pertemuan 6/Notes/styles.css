@@ -1,0 +1,55 @@
+body {
+    color: white;
+    font-weight: bold;
+
+}
+
+.header {
+    background-color: brown;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contain {
+    display: flex;
+    margin: 0 20px;
+    padding: 0;
+    
+
+}
+
+
+#aside-1 {
+    display: flex;
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    align-items: end;
+
+}
+
+#aside-2 {
+    display: flex;
+    background-color: rgb(255, 150, 14);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.article {
+    padding: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    align-content: center;
+
+}
+
+.footer {
+    background-color: coral;
+    margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+}

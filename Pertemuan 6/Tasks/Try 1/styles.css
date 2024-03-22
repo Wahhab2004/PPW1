@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    align-self: center;
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 40%;
+    background-color:white;
+    box-shadow: 10px 10px 10px 0 rgb(0, 0, 0, 5%);
+    border-radius: 10px;
+}
+
+
+/* MEMANIPULASI KOLOM KIRI */
+.left {
+    background-image: url('/Tasks/article-preview-component-master/images/drawers.jpg');
+    background-size: cover;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+
+
+/* MEMANIPULASI KOLOM KANAN */
+.right {
+    width: 60%;
+    padding: 10px 20px;
+    margin: auto;
+    margin-left: 20px;
+
+}
+
+.text {
+    width: 90%;
+}
+
+.text h3 {
+    margin-bottom: 15px;
+}
+
+.text p {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+
+/* MENYESUAIKAN HEAD, PROFILE DAN PARAGRAPH */
+.self-image img{
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 30px;
+}
+
+
+.self {
+    display: flex;
+    align-items: center;
+}
+
+
+.name p {
+    color: gray;
+    margin-right: 150px;
+}
+
+
+
+
+/* MEMFORMAT IKON SHARE  */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;   
+    background: hsl(210, 46%, 95%);
+    border-radius: 50px;
+    fill: black;
+}
+
+.share {
+    display: flex;
+    opacity: 0;
+    height: 50px;
+    position: relative;  
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 19%, 35%);
+    left: -130px;
+    bottom:50px ;
+    border-radius:10px ;
+    color: rgb(174, 174, 174);
+    padding: 10px 20px;
+   
+}
+
+.share svg {
+    margin-left: 20px;
+}
+
+
+.icon-share {
+    margin-left: 230px;
+}
+
+.share p {
+    letter-spacing: 5px;
+}
+
+.icon:hover > .share {
+    opacity: 100%;  
+}
+
+
+.icon:hover > .icon-share {
+    fill: white;
+    height: 2.7em;
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px;
+    border-radius: 200px;
+}
+
+svg:hover path {
+    fill: white;
+}
+
+
+
+/* MEMFORMAT TAMPILAN MOBILE */
+@media all and (max-width:380px){
+    body {  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 80%;
+    }
+
+    .left {
+        width: 100%;
+        height: 235px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .right {
+        width: 90%;
+        margin: 0px 0 0 30px;
+        padding: 0;
+        height: 200px;
+
+    }
+
+    .self {
+        margin-top: 30px;
+    
+    }
+
+    .name p {
+        margin-right: 100px;
+
+    }
+
+
+    .share {
+        display: none;
+    }
+
+    .icon-share {
+        margin-left: 0;
+    }
+
+}
