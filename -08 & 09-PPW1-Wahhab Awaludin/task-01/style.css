@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-image: url('pexels-designecologist-1779487.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value for opacity */
+    z-index: -1; /* Put the overlay behind the content */
+}
+
+
+.button-hover {
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.0);
+    border: 2px solid rgb(172, 6, 72);
+    color: rgb(172, 6, 72);
+    font-weight: bold;
+    transition: background 4s;
+}
