@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+    <h1>Tutorial Javascript untuk Pemula</h1>
+    <div id="hasil-output"></div>
+    <div id="do"></div>
+    <div id="hello"> Klik di bawah</div>
+    <br>
+
+
+    <!-- Tugas 1 -->
+    <!-- Eksternal JS -->
+    <script src="javascript.js"></script>
+
+    <!-- Inline -->
+    <button type="button" onclick="sayHello()">Klik Aku!</button>
+    <br>
+    <br>
+
+    <!-- Embed JS -->
+    <script>
+        // Membueat objek element
+        var lunch = document.getElementById("do");
+        lunch.innerHTML = "<p>My favorite lunch is chicken</p>"
+
+        
+        const a = 10;
+        const b = 20;
+        var c = a + b;
+
+
+        var name = "Wahhab"
+        var age = 19
+        var kuliah = "Universitas Gadjah Mada"
+        var mahasiswa = "Nama: " + name + " Umur: " + age + " Aku berkuliah di: " + kuliah
+
+
+        // Tugas 2
+        var hasil = document.getElementById("hasil-output")
+        hasil.innerHTML = "<p> Aku suka Javascript</p>"
+        console.log("hasil " + a + " + " + b + " = "+ c)
+        document.write(mahasiswa)
+        alert("Ini contoh pop-up")
+
+
+        // Escape Squence
+        document.writeln('<hr>')
+        document.write('\n' + "Wahhab Awaludin 'Ganteng'")
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
