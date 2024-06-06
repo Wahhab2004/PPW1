@@ -10,7 +10,4 @@
             echo "Hello my friends $f! <br>";
         }
     }
-
-
-
 ?>

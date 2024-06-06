@@ -5,5 +5,4 @@
         echo $cars[$i];
         echo "<br>";
     }
-
 ?>
